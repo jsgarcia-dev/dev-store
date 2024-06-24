@@ -30,6 +30,8 @@ npm run dev
 ```
 Isso iniciará o servidor de desenvolvimento e abrirá a aplicação em http://localhost:3000 no seu navegador padrão.
 
+Observação: Esta aplicação consome um backend localizado em https://ignite-devstore-api-swart.vercel.app/. Se você quiser executar a aplicação com seu próprio backend, será necessário incluir o endpoint do seu backend no arquivo de ambiente (env).
+
 ### Stacks utilizadas
 - Next.js: Um framework React para construção de aplicações web renderizadas no servidor (SSR) e estáticas (SSG).
 - React: Uma biblioteca JavaScript para construção de interfaces de usuário.
