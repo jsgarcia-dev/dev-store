@@ -2,6 +2,10 @@
 
 Dev Store é uma aplicação de e-commerce construída com Next.js, React, Tailwind CSS e TypeScript. Ela permite que os usuários naveguem por uma loja virtual, visualizem detalhes de produtos e realizem buscas.
 
+<br>
+
+[![Deploy](https://img.shields.io/badge/deploy-Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)](https://dev-store-virid.vercel.app/)
+
 ## Requisitos
 
 - Node.js (versão 18 ou superior)
