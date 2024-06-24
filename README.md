@@ -11,7 +11,7 @@ Dev Store é uma aplicação de e-commerce construída com Next.js, React, Tailw
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/seu-usuario/dev-store.git
+git clone https://github.com/jsgarcia-dev/dev-store.git
 ```
 2. Navegue até o diretório do projeto:
 ```bash
