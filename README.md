@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dev Store
 
-## Getting Started
+Dev Store é uma aplicação de e-commerce construída com Next.js, React, Tailwind CSS e TypeScript. Ela permite que os usuários naveguem por uma loja virtual, visualizem detalhes de produtos e realizem buscas.
 
-First, run the development server:
+## Requisitos
 
+- Node.js (versão 18 ou superior)
+- npm (gerenciador de pacotes do Node.js)
+
+## Instalação
+
+1. Clone este repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/seu-usuario/dev-store.git
+```
+2. Navegue até o diretório do projeto:
+```bash
+cd dev-store
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Instale as dependências:
+```bash 
+npm install
+```
+Executando a aplicação
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para iniciar a aplicação em modo de desenvolvimento, execute o seguinte comando:
+```bash 
+npm run dev
+```
+Isso iniciará o servidor de desenvolvimento e abrirá a aplicação em http://localhost:3000 no seu navegador padrão.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Stacks utilizadas
+- Next.js: Um framework React para construção de aplicações web renderizadas no servidor (SSR) e estáticas (SSG).
+- React: Uma biblioteca JavaScript para construção de interfaces de usuário.
+- Tailwind CSS: Uma estrutura CSS utilitária para estilização rápida e consistente.
+- TypeScript: Um superset de JavaScript que adiciona tipagem estática ao código.
 
-## Learn More
+### Finalidade da aplicação
+A Dev Store é uma aplicação de e-commerce que permite aos usuários explorar e comprar produtos de forma fácil e intuitiva. Ela oferece recursos como:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Listagem de produtos com imagens, descrições e preços.
+- Página de detalhes do produto com informações adicionais.
+- Barra de pesquisa para encontrar produtos específicos.
+- Design responsivo para uma boa experiência em dispositivos móveis.
+- A aplicação foi construída com foco em performance, utilizando as melhores práticas do Next.js, como renderização no servidor (SSR) e geração de páginas estáticas (SSG). Além disso, a utilização do Tailwind CSS garante uma estilização consistente e escalável.
